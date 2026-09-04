@@ -3,7 +3,7 @@
 A pixel-focused implementation of the "Training and Development" page from the
 provided Figma file, built with Next.js (App Router) and Tailwind CSS.
 
-**Live URL:** _add your deployed Vercel/Netlify URL here before submitting_
+**Live URL:** https://frontend-intern-assessment-xi.vercel.app/
 
 **Figma reference:** https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment
 
