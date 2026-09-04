@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #26161f;
+
+  /* Brand palette sampled from the Figma design */
+  --color-plum-950: #11040e; /* footer */
+  --color-plum-900: #1d0617; /* dark CTA banners */
+  --color-plum-850: #2c0922; /* management program section */
+  --color-plum-700: #571244; /* primary brand plum */
+  --color-plum-600: #691752; /* secondary heading plum */
+  --color-plum-300: #8f6182; /* pill / tag background */
+  --color-plum-100: #dacdd7; /* card background */
+  --color-plum-50: #e9e2e7; /* section background */
+  --color-coral-500: #ef4353; /* accent / CTA red */
+  --color-coral-300: #f3727e;
+  --color-pink-100: #fde4e7; /* transformation hub background */
+  --color-pink-200: #fcd9dd;
+  --color-neutral-50: #f9f9f9;
+  --color-ink-900: #1f1b1e;
+  --color-ink-600: #524b51;
+  --color-ink-400: #7c737a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-plum-950: var(--color-plum-950);
+  --color-plum-900: var(--color-plum-900);
+  --color-plum-850: var(--color-plum-850);
+  --color-plum-700: var(--color-plum-700);
+  --color-plum-600: var(--color-plum-600);
+  --color-plum-300: var(--color-plum-300);
+  --color-plum-100: var(--color-plum-100);
+  --color-plum-50: var(--color-plum-50);
+  --color-coral-500: var(--color-coral-500);
+  --color-coral-300: var(--color-coral-300);
+  --color-pink-100: var(--color-pink-100);
+  --color-pink-200: var(--color-pink-200);
+  --color-neutral-50: var(--color-neutral-50);
+  --color-ink-900: var(--color-ink-900);
+  --color-ink-600: var(--color-ink-600);
+  --color-ink-400: var(--color-ink-400);
+
+  --font-sans: var(--font-poppins);
+  --font-body: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}
+
+/* Visible keyboard focus for all interactive elements */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-coral-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
